@@ -101,6 +101,10 @@ module Fog
       request :get_network
       request :create_network
       request :delete_network
+      
+      request :list_virtual_interfaces
+      request :create_virtual_interfaces
+      request :delete_virtual_interfaces
 
       request :list_keypairs
       request :create_keypair
